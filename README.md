@@ -42,6 +42,7 @@ Example
  Position of the fourth _unknown_ point: (0,1)
  
  So the three _unknown_ distances would be:
+ 
  d1 = |p1-p?| = 1\
  d2 = |p2-p?| = 1\
  d3 = |p3-p?| = 2
