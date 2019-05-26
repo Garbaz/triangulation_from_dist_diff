@@ -49,8 +49,11 @@ Example
  
  Which would result in the following input to our problem:
 
- D31 := d3 - d1 = 1\
- D32 := d3 - d2 = 1
+ D12 := d1 - d2 = 0\
+ D13 := d1 - d3 = 1\
+ D23 := d2 - d3 = -1
+ 
+ (Though only two of these values need to be known, since the third can always be calculated from the other two).
 
 Algorithm
 ---------
