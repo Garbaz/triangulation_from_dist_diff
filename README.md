@@ -55,10 +55,6 @@ Example
  
  (Though only two of these values need to be known, since the third can always be calculated from the other two).
 
-Algorithm
----------
-
-The algorithm takes in the positions of the three points and a pair of differences (which two doesn't matter since they can be transformed into each other) and returns the position of the unknown point.
 
 Solution
 --------
