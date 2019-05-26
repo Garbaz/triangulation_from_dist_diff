@@ -5,6 +5,7 @@ Triangulation from distance differences
 The Problem
 -----------
 
+```
 +----------------------------+
 |                            |
 |   A                   A    |
@@ -18,12 +19,14 @@ The Problem
 |              A             |
 |                            |
 +----------------------------+
+```
 
  Given three points of known position and the _difference_ between the distances from each to a fourth point, find it's position is space.
 
 Example
 -------
 
+```
  +-----------+
  |           |
  |     A     |
@@ -32,7 +35,8 @@ Example
  | A   ?   A |
  |           |
  +-----------+
- 
+ ```
+
  Positions of the three points: {(0,0), (2,0), (1,2)}
  
  Position of the fourth _unknown_ point: (0,1)
