@@ -1,0 +1,51 @@
+
+The Problem:
+~~~~~~~~~~~~
+
++----------------------------+
+|                            |
+|   A                   A    |
+|                            |
+|                            |
+|             ?              |
+|                            |
+|                            |
+|                            |
+|                            |
+|              A             |
+|                            |
++----------------------------+
+
+ Given three points of known position and the _difference_ between the distances from each to a fourth point, find it's position is space.
+
+Example:
+~~~~~~~~
+
+ +-----------+
+ |           |
+ |     A     |
+ |           |
+ |           |
+ | A   ?   A |
+ |           |
+ +-----------+
+ 
+ Positions of the three points: {(0,0), (2,0), (1,2)}
+ 
+ Position of the fourth _unknown_ point: (0,1)
+ 
+ So the three _unknown_ distances would be:
+ d1 = |p1-p?| = 1
+ d2 = |p2-p?| = 1
+ d3 = |p3-p?| = 2
+ 
+ Which would result in the following input to our problem:
+ D31 := d3 - d1 = 1
+ D32 := d3 - d2 = 1
+
+Algorithm:
+~~~~~~~~~~
+
+The algorithm takes in the positions of the three points and a pair of differences (which two doesn't matter since they can be transformed into each other) and returns the position of the unknown point.
+
+Without loss of generality, the problem's complexity can be reduced by choosing the coordinate system such that one point is the origin and a second one is on the x axis, so only the x-value of the second point and the position of the third is non-zero.
