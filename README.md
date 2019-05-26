@@ -43,11 +43,15 @@ Example
  
  So the three _unknown_ distances would be:
  d1 = |p1-p?| = 1
+
  d2 = |p2-p?| = 1
+
  d3 = |p3-p?| = 2
  
  Which would result in the following input to our problem:
+
  D31 := d3 - d1 = 1
+
  D32 := d3 - d2 = 1
 
 Algorithm
@@ -63,7 +67,9 @@ Without loss of generality, the problem's complexity can be reduced by choosing 
 The resulting set of equations to solve is:
 
 x²+y² = (t+a+b)²
+
 (x-x2)²+(y)² = (t+b)²
+
 (x-x3)²+(y-y3)² = t²
 
 for {x,y,t} (though t is of no interest to us).
