@@ -23,6 +23,8 @@ The Problem
 
  Given three points of known position and the _difference_ between the distances from each to a fourth point, find it's position is space.
 
+A practical example of such a problem would be three beacons sending a signal at the same, but to the reciever unknown, time. The reciever recieves these at different times, therefore, with the speed of the signal (e.g. speed of sound or speed of light) and the difference between the arrival times, the recievers position is to be calculated (Given the location of the beacons are known).
+
 Example
 -------
 
@@ -61,7 +63,7 @@ Solution
 
 Without loss of generality, the problem's complexity can be reduced by choosing the coordinate system such that one point is the origin and a second one is on the x axis, so only the x-value of the second point and the position of the third is non-zero.
 
-The resulting set of equations to solve is:
+With a=D12 and b=D13-D12 for convenience, the resulting set of equations to solve is:
 
 x²+y² = (t+a+b)²\
 (x-x2)²+(y)² = (t+b)²\
