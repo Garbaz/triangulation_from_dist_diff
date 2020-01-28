@@ -21,7 +21,7 @@ The Problem
 +----------------------------+
 ```
 
- Given three points of known position and the _difference_ between the distances from each to a fourth point, find it's position is space.
+ Given three points of known position and the _difference_ between the distances from each to a fourth point, find it's position in space.
 
 A practical example of such a problem would be three beacons sending a signal at the same, but to the reciever unknown, time. The reciever recieves these at different times, therefore, with the speed of the signal (e.g. speed of sound or speed of light) and the difference between the arrival times, the recievers position is to be calculated (Given the location of the beacons are known).
 
