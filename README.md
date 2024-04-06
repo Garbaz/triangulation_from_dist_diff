@@ -78,3 +78,5 @@ Implementation
 --------------
 
 In the subfolder [c/](c/) is a c implementation of the solution.
+
+**April 2024 Update:** For a current project, I've also implemented the solution to this problem is Rust! See the repo [distance_difference_triangulation](https://github.com/Garbaz/distance_difference_triangulation).
